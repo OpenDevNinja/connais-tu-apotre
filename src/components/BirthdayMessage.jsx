@@ -92,7 +92,7 @@ export default function BirthdayMessage({ data, image, socialMedia }) {
                                 href={socialMedia.whatsapp}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="inline-flex items-center justify-center px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
+                                className="inline-flex items-center justify-center px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition"
                             >
                                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">  
                                     <path d="M20.1 3.9l.7-.7.7 .7-2.5 2.5L18 15l-5-5-5 5-1.1-1.1L8 12l6.9-6.9-1.3-1.3zM17.9 6.7l-2.5-2.5.7-.7 2.5 2.5-4.3 4.3z" />
