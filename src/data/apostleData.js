@@ -26,22 +26,22 @@ export const apostleBio = {
   ],
   branches: [
     {
-      name: "CCRS Porto-Novo",
+      name: "MCR Porto-Novo",
       location: "Porto-Novo, Bénin",
       year: 2003,
     },
     {
-      name: "CCRS Parakou",
+      name: "MCR Parakou",
       location: "Parakou, Bénin",
       year: 2008,
     },
     {
-      name: "CCRS International",
+      name: "MCR International",
       location: "Paris, France",
       year: 2012,
     },
     {
-      name: "CCRS USA",
+      name: "MCR USA",
       location: "Atlanta, USA",
       year: 2015,
     },
