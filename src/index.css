@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Animations personnalisées */
+@keyframes holy-glow {
+
+  0%,
+  100% {
+    box-shadow: 0 0 10px 2px rgba(255, 215, 0, 0.5);
+  }
+
+  50% {
+    box-shadow: 0 0 20px 5px rgba(255, 215, 0, 0.8);
+  }
+}
+
+.holy-glow {
+  animation: holy-glow 3s ease-in-out infinite;
+}
+
+/* Styles de base */
+body {
+  @apply antialiased bg-slate-900 text-white;
+}
+
+/* Transition de page */
+.page-enter {
+  @apply opacity-0;
+}
+
+.page-enter-active {
+  @apply opacity-100 transition-opacity duration-300;
+}
+
+.page-exit {
+  @apply opacity-100;
+}
+
+.page-exit-active {
+  @apply opacity-0 transition-opacity duration-300;
+}
