@@ -43,7 +43,7 @@ export default function BirthdayMessage({ data, image, socialMedia }) {
                         transition={{ delay: 0.6 }}
                     >
                         <motion.h1
-                            className="text-4xl font-bold text-white"
+                            className="text-4xl font-bold text-center text-white"
                             initial={{ y: 20, opacity: 0 }}
                             animate={{ y: 0, opacity: 1 }}
                             transition={{

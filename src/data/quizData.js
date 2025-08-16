@@ -184,7 +184,7 @@ export const quizData = {
     },
   ],
   birthdayMessage: {
-    title: "Joyeux Anniversaire à l'Apôtre William Houinsou !",
+    title: "Joyeux Anniversaire Apôtre William's Houissou !",
     message:
       "Que Dieu vous bénisse abondamment et vous accorde de nombreuses années de vie en santé pour continuer l'œuvre du ministère.",
     confettiColors: ["#ff0000", "#00ff00", "#0000ff", "#ffff00", "#ff00ff"],
