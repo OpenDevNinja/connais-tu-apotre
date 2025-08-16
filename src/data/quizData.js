@@ -4,7 +4,7 @@ import imgApotre from "../assets/apotre.jpeg";
 import hdbApotre from "../assets/hbd.jpg";
 
 export const quizData = {
-  title: "Connaissez-vous l'Apôtre William Houinsou ?",
+  title: "Connaissez-vous l'Apôtre William's Houissou ?",
   description: "Testez vos connaissances sur ce grand homme de Dieu",
   image: imgApotre,
   birthdayImage: hdbApotre,
