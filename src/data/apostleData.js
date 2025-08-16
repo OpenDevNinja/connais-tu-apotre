@@ -1,63 +1,41 @@
+// =========================
+// BIOGRAPHIE DE L'APÔTRE
+// =========================
 export const apostleBio = {
-  fullName: "William's Houissou",
-  birthDate: "23 mars 1965",
-  birthPlace: "Cotonou, Bénin",
-  ministryStart: 1995,
-  spouse: "Marie Houissou",
-  children: ["David Houissou", "Sarah Houissou", "Rachel Houissou"],
-  education: [
-    "Théologie à l'Institut Biblique de West Africa",
-    "Études Pastorales à l'Université de Lagos",
+  fullName: "William Houinsou",
+  birthDate: "13 août 1974",
+  birthPlace: "Bénin",
+  spouse: "ATTOLOU Caroline Marie Immaculée",
+  children: ["Eden", "Jedida", "Jemima", "Consolée"],
+  callAge: "17 ans",
+  spiritualExperience:
+    "Un songe où il a vu plusieurs personnes de différents rangs sociaux aller en enfer.",
+  ministryStart: 2010,
+  diploma: ["Ph.D", "Doctorat honoris causa", "Doctorat en théologie"],
+  churches: [
+    "Parakou",
+    "Savè",
+    "Glazoué",
+    "Bohicon",
+    "Allada",
+    "Dohou",
+    "Calavi",
+    "Cococodji",
+    "Porto-Novo",
+    "Lokossa",
+    "Comè",
+    "Klouékanmè",
+    "France",
+    "Nikki",
   ],
-  mainChurch: {
-    name: "Centre Chrétien de Réveil Spirituel",
-    location: "Cotonou, Bénin",
-    foundingYear: 1997,
-    capacity: "5000 places",
+  books: {
+    first: "La maternité de Dieu (renommée La Clé du ciel)",
+    last: "La bénédiction du travail",
   },
-  books: [
-    "La Puissance de la Foi",
-    "Le Chemin de la Sanctification",
-    "Les Mystères du Royaume",
-  ],
-  awards: [
-    "Prix du Leadership Chrétien 2010",
-    "Médaille d'Honneur du Ministère Évangélique 2015",
-  ],
-  branches: [
-    {
-      name: "MCR Porto-Novo",
-      location: "Porto-Novo, Bénin",
-      year: 2003,
-    },
-    {
-      name: "MCR Parakou",
-      location: "Parakou, Bénin",
-      year: 2008,
-    },
-    {
-      name: "MCR International",
-      location: "Paris, France",
-      year: 2012,
-    },
-    {
-      name: "MCR USA",
-      location: "Atlanta, USA",
-      year: 2015,
-    },
-  ],
-  keyEvents: [
-    {
-      date: "15 juillet 2001",
-      event: "Première conférence internationale",
-    },
-    {
-      date: "10 mai 2009",
-      event: "Ouverture de l'orphelinat 'Berceau de l'Espoir'",
-    },
-    {
-      date: "3 mars 2018",
-      event: "Croisade de réveil avec 50,000 participants",
-    },
-  ],
+  favoriteFood: "Poisson Akpavi braisé - Manh (bien fait)",
+  favoriteMusic: "Hillsong (gospel chrétien doux)",
+  favoriteSong:
+    "Jésus moi je t'aime (composition personnelle sur un instrumental de Mickaël Jackson)",
+  mainMission:
+    "Amener les âmes nées de nouveau à avoir une intimité avec Jésus",
 };
