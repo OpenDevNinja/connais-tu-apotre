@@ -164,7 +164,7 @@ export default function Quiz() {
                         animate="visible"
                     >
                         <motion.p
-                            className="text-gray-600 mb-6"
+                            className="text-gray-600 mb-6 text-center text-xl"
                             variants={containerVariants}
                         >
                             {quizData.description}
