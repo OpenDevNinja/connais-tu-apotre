@@ -2,7 +2,7 @@
 // BIOGRAPHIE DE L'APÔTRE
 // =========================
 export const apostleBio = {
-  fullName: "William Houinsou",
+  fullName: " Révérend Apôtre Williams HOUINSOU.",
   birthDate: "13 août 1974",
   birthPlace: "Bénin",
   spouse: "ATTOLOU Caroline Marie Immaculée",

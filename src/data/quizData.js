@@ -4,7 +4,7 @@ import imgApotre from "../assets/apotre.jpeg";
 import hdbApotre from "../assets/hbd.jpg";
 
 export const quizData = {
-  title: "Connaissez-vous l'Apôtre William's Houissou ?",
+  title: "Connaissez-vous le Révérend Apôtre Williams HOUINSOU ?",
   description: "Testez vos connaissances sur ce grand homme de Dieu",
   image: imgApotre,
   birthdayImage: hdbApotre,
@@ -14,7 +14,7 @@ export const quizData = {
       id: 1,
       type: "biography",
       question:
-        "Quelle est la date de naissance de l'Apôtre William's Houissou ?",
+        "Quelle est la date de naissance du Révérend Apôtre Williams HOUINSOU  ?",
       options: [
         "13 août 1972",
         apostleBio.birthDate,
@@ -76,7 +76,7 @@ export const quizData = {
     {
       id: 6,
       type: "ministry",
-      question: "En quelle année a-t-il commencé la Mission Chrétienne Rhema ?",
+      question: "En quelle année a-t-il créé la Mission Chrétienne Rhema ?",
       options: ["2008", "2012", apostleBio.ministryStart.toString(), "2009"],
       correctAnswer: 2,
       explanation: `Il a commencé la Mission Chrétienne Rhema en ${apostleBio.ministryStart}.`,
@@ -184,7 +184,7 @@ export const quizData = {
     },
   ],
   birthdayMessage: {
-    title: "Joyeux Anniversaire Apôtre William's Houissou !",
+    title: "Joyeux Anniversaire Révérend Apôtre Williams HOUINSOU ",
     message:
       "Que Dieu vous bénisse abondamment et vous accorde de nombreuses années de vie en santé pour continuer l'œuvre du ministère.",
     confettiColors: ["#ff0000", "#00ff00", "#0000ff", "#ffff00", "#ff00ff"],

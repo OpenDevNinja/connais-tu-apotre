@@ -165,14 +165,14 @@ export default function Results({ score, totalQuestions, selectedAnswers, questi
                                     className={`p-4 rounded-lg border ${isCorrect ? 'bg-green-50 border-green-200' : 'bg-red-50 border-red-200'
                                         }`}
                                 >
-                                    <p className="font-semibold">{q.question}</p>
+                                    <p className="font-semibold text-gray-800">{q.question}</p>
                                     <p className={`mt-1 ${isCorrect ? 'text-green-600' : 'text-red-600'}`}>
                                         {isCorrect
                                             ? `✅ Correct: ${correctAnswer}`
                                             : `❌ Votre réponse: ${userAnswer?.answerId !== null ? q.options[userAnswer.answerId] : 'Aucune'} | Correct: ${correctAnswer}`}
                                     </p>
                                     {q.explanation && (
-                                        <p className="mt-2 text-sm text-gray-600">{q.explanation}</p>
+                                        <p className="mt-2 text-sm text-gray-700">{q.explanation}</p>
                                     )}
                                 </motion.div>
                             )
